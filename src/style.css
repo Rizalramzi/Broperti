@@ -1,0 +1,39 @@
+#hero{
+    background-image: url(assets/images/photos/hero-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+#features{
+    background-image: url(assets/images/photos/features-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 946px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    overflow: visible !important;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    max-width: max-content;
+  }
+  .swiper-container {
+    overflow: hidden;
+    padding: 0 90px;
+  }
+
+.swiper-slide {
+    width: auto;
+    flex-shrink: 0;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
